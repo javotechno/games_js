@@ -1,15 +1,15 @@
 [
   {
     "name": "Rpg Adventure",
-    "url": "/machine.html",
-    "ruta": "/games/text_adventure.html",
+    "url": "./machine.html",
+    "ruta": "./games/text_adventure.html",
     "description": "Rpg Adeventure is a video game that will transport you to a world of fantasy and excitement, where strategy and skill will be key to overcoming every obstacle and becoming the legendary hero the kingdom needs. Are you ready for adventure? Descend into the depths and discover what awaits you in the shadows!",
     "img": "assets/imagenes/dragonentrada.jpg"
   },
   {
     "name": "Pinball",
-    "url": "/machine.html",
-    "ruta": "/games/ballgame.html",
+    "url": "./machine.html",
+    "ruta": "./games/ballgame.html",
     "description": "Pinball is a thrilling action-skill video game that will test you with its intense gameplay and fast-paced challenges. Immerse yourself in an adrenaline-filled virtual world where you control a glowing ball with the ability to move at breathtaking speeds",
     "img": "assets/imagenes/brickbreaker.jpg"
   }

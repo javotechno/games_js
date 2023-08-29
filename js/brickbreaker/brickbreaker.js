@@ -5,7 +5,6 @@ let ctx =
     "2d"
   ); 
   
-  /*Usamos getcontext para poder dibujar sobre el canvas*/
 
 let x = canvas.width / 2;
 let y = canvas.height - 30;
@@ -27,7 +26,7 @@ let paletaX = (canvas.width - paletaAncho) / 2;
 let botonDerecho = false;
 let botonIzquierdo = false;
 
-// Contador
+
 let puntaje = 0;
 
 // Ladrillos variables
@@ -39,7 +38,6 @@ let ladrilloPadding = 10;
 let ladrilloMarginTop = 30;
 let ladrilloMarginLeft = 20;
 
-// array ladrillos.
 
 const ladrillos = [];
 for (i = 0; i < ladrilloColumna; i++) {

@@ -46,8 +46,8 @@ const infoGame = (id, arrArcade) => {
   if (detailGame) {
     arrArcade.forEach((e, i) => {
       if (i === id) {
-        detailGame.innerHTML = `<h1>${e.name}s</h1> <p>${e.description}</p>  <div class="containerButtons"><button class="buttonStart" onclick="navegationGame('${e.ruta}')">Start</button>  <button class="buttonHome" onclick="navegationGame('/index.html')">Home <img src="assets/imagenes/iconHome.svg"/></button></div> `;
-        imgMachine.innerHTML = `<img class= "img-mainGame " src= '${e.img}'  />`;
+        detailGame.innerHTML = `<h1>${e.name}s</h1> <p>${e.description}</p>  <div class="containerButtons"><button class="buttonStart" onclick="navegationGame('${e.ruta}')">Start</button>  <button class="buttonHome" onclick="navegationGame('./index.html')">Home <img src="./assets/imagenes/iconHome.svg"></button></div> `;
+        imgMachine.innerHTML = `<img class= "img-mainGame" src= '${e.img}'  />`;
       }
     });
   }
